@@ -1,0 +1,79 @@
+<html>
+  <head lang="en">
+  <meta charset="UTF-8">
+  </head>
+<body>
+  <form>
+    <table>
+    <tr>
+      <td><label for="name">Name:</label><br></td>
+      <td><input type="text" id="name" name="name"><br></td>
+    </tr>
+    <tr>
+      <td><label for="hp">HP:</label><br></td>
+      <td><input type="text" id="hp" name="hp"><br></td>
+    </tr>
+    <tr>
+      <td><label for="gender">Gender:</label><br></td>
+      <td><input type="text" id="gender" name="gender"><br></td>
+    </tr>
+    <tr>
+      <td><label for="dob">Date of Birth:</label><br></td>
+      <td><input type="text" id="dob" name="dob"><br></td>
+    </tr>
+    <tr>
+      <td><label for="address">Address:</label><br></td>
+      <td><input type="text" id="address" name="address"><br></td>
+    </tr>
+    <tr>
+      <td><label for="workaddress">Work Address:</label><br></td>
+      <td><input type="text" id="workaddress" name="workaddress"><br></td>
+    </tr>
+    <tr>
+      <td><label for="company">Company:</label><br></td>
+      <td><input type="text" id="company" name="company"><br></td>
+    </tr>
+    <tr>
+      <td><label for="companyphone">Company Phone:</label><br></td>
+      <td><input type="text" id="companyphone" name="companyphone"><br></td>
+    </tr>
+    <tr>
+      <td><label for="position">Position:</label><br></td>
+      <td><input type="text" id="position" name="position"><br></td>
+    </tr>
+    <tr>
+      <td><label for="npwp">NPWP:</label><br></td>
+      <td><input type="text" id="npwp" name="npwp"><br></td>
+    </tr>
+    </table>
+  </form>
+  <input type="submit" onclick="showInput();"><br/><br/>
+
+  <script language="JavaScript">
+    function showInput() {
+        document.getElementById('display1').innerHTML = document.getElementById("name").value;
+        document.getElementById('display2').innerHTML = document.getElementById("hp").value;
+        document.getElementById('display3').innerHTML = document.getElementById("gender").value;
+        document.getElementById('display4').innerHTML = document.getElementById("dob").value;
+        document.getElementById('display5').innerHTML = document.getElementById("address").value;
+        document.getElementById('display6').innerHTML = document.getElementById("workaddress").value;
+        document.getElementById('display7').innerHTML = document.getElementById("company").value;
+        document.getElementById('display8').innerHTML = document.getElementById("companyphone").value;
+        document.getElementById('display9').innerHTML = document.getElementById("position").value;
+        document.getElementById('display10').innerHTML = document.getElementById("npwp").value;
+    }
+  </script>
+
+  <label>Tampil: </label><br>
+  <span id='display1'></span><br>
+  <span id='display2'></span><br>
+  <span id='display3'></span><br>
+  <span id='display4'></span><br>
+  <span id='display5'></span><br>
+  <span id='display6'></span><br>
+  <span id='display7'></span><br>
+  <span id='display8'></span><br>
+  <span id='display9'></span><br>
+  <span id='display10'></span><br>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<html>
+  <head lang="en">
+  <meta charset="UTF-8">
+  </head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td><label for="name">Name:</label><br></td>
+        <td><input type="text" id="name" name="name"><br></td>
+      </tr>
+      <tr>
+        <td><label for="hp">HP:</label><br></td>
+        <td><input type="text" id="hp" name="hp"><br></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label><br></td>
+        <td><input type="text" id="gender" name="gender"><br></td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date of Birth:</label><br></td>
+        <td><input type="text" id="dob" name="dob"><br></td>
+      </tr>
+      <tr>
+        <td><label for="address">Address:</label><br></td>
+        <td><input type="text" id="address" name="address"><br></td>
+      </tr>
+      <tr>
+        <td><label for="partai">Partai:</label><br></td>
+        <td><input type="text" id="partai" name="partai"><br></td>
+      </tr>
+      <tr>
+        <td><label for="nourut">No Urut:</label><br></td>
+        <td><input type="text" id="nourut" name="nourut"><br></td>
+      </tr>
+      <tr>
+        <td><label for="dapil">Dapil:</label><br></td>
+        <td><input type="text" id="dapil" name="dapil"><br></td>
+      </tr>
+      <tr>
+        <td><label for="istri">Istri:</label><br></td>
+        <td><input type="text" id="istri" name="istri"><br></td>
+      </tr>
+      <tr>
+        <td><label for="anak1">Anak 1:</label><br></td>
+        <td><input type="text" id="anak1" name="anak1"><br></td>
+      </tr>
+      <tr>
+        <td><label for="anak2">Anak 2:</label><br></td>
+        <td><input type="text" id="anak2" name="anak2"><br></td>
+      </tr>
+      <tr>
+        <td><label for="anak3">Anak 3:</label><br></td>
+        <td><input type="text" id="anak3" name="anak3"><br></td>
+      </tr>
+      </table>
+  </form>
+  <input type="submit" onclick="showInput();"><br/><br/>
+
+  <script language="JavaScript">
+    function showInput() {
+        document.getElementById('display1').innerHTML = document.getElementById("name").value;
+        document.getElementById('display2').innerHTML = document.getElementById("hp").value;
+        document.getElementById('display3').innerHTML = document.getElementById("gender").value;
+        document.getElementById('display4').innerHTML = document.getElementById("dob").value;
+        document.getElementById('display5').innerHTML = document.getElementById("address").value;
+        document.getElementById('display6').innerHTML = document.getElementById("partai").value;
+        document.getElementById('display7').innerHTML = document.getElementById("nourut").value;
+        document.getElementById('display8').innerHTML = document.getElementById("dapil").value;
+        document.getElementById('display9').innerHTML = document.getElementById("istri").value;
+        document.getElementById('display10').innerHTML = document.getElementById("anak1").value;
+        document.getElementById('display11').innerHTML = document.getElementById("anak2").value;
+        document.getElementById('display12').innerHTML = document.getElementById("anak3").value;
+    }
+  </script>
+
+  <label>Tampil: </label><br>
+  <span id='display1'></span><br>
+  <span id='display2'></span><br>
+  <span id='display3'></span><br>
+  <span id='display4'></span><br>
+  <span id='display5'></span><br>
+  <span id='display6'></span><br>
+  <span id='display7'></span><br>
+  <span id='display8'></span><br>
+  <span id='display9'></span><br>
+  <span id='display10'></span><br>
+  <span id='display11'></span><br>
+  <span id='display12'></span><br>
+</body>
+</html>
