@@ -5,26 +5,20 @@
  */
 package bangun;
 
-import java.util.Scanner;
-
 /**
  *
  * @author lenovo
  */
 public class Main {
      public static void main(String[] args) {
-         
-        BangunDatar bangunDatar = new BangunDatar();
-        BangunRuang bangunRuang = new BangunRuang();
         
         Persegi persegi = new Persegi();
         persegi.setSisi(4);
         Lingkaran lingkaran = new Lingkaran();
         lingkaran.setJarijari(7);
         
-        bangunDatar.hitungluas();
-        persegi.hitungluas();
-        lingkaran.hitungluas();
+        persegi.hitungLuas();
+        lingkaran.hitungLuas();
         
         Balok balok = new Balok();
         balok.setTinggi(10);
@@ -33,8 +27,7 @@ public class Main {
         tabung.setTinggi(10);
         tabung.luas = lingkaran.luas;
         
-        bangunRuang.hitungvolume();
-        balok.hitungvolume();
-        tabung.hitungvolume();
+        balok.hitungVolume();
+        tabung.hitungVolume();
     }
 }

@@ -21,7 +21,7 @@ public class Lingkaran extends BangunDatar{
     }
     
     @Override
-    float hitungluas(){
+    float hitungLuas(){
         luas = (float) (Math.PI * getJarijari() * getJarijari());
         System.out.println("Luas Lingkaran: " + luas);
         return luas;

@@ -10,18 +10,18 @@ package bangun;
  * @author lenovo
  */
 public class Persegi extends BangunDatar{
-    private int sisi;
+    private int s;
     float luas;
     
-    void setSisi(int sisi) {
-        this.sisi = sisi;
+    void setSisi(int s) {
+        this.s = s;
     }
     public int getSisi() {
-        return sisi;
+        return s;
     }
     
     @Override
-    float hitungluas(){
+    float hitungLuas(){
         luas = getSisi() * getSisi();
         System.out.println("Luas Persegi: " + luas);
         return luas;

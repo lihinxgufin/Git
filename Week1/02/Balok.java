@@ -21,7 +21,7 @@ public class Balok extends BangunRuang{
     }
     
     @Override
-    float hitungvolume(){
+    float hitungVolume(){
         float volume = luas * getTinggi();
         System.out.println("Volume Balok: " + volume);
         return volume;

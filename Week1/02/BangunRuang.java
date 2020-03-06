@@ -9,10 +9,6 @@ package bangun;
  *
  * @author lenovo
  */
-public class BangunRuang {
-    float hitungvolume(){
-        System.out.println();
-        System.out.println("Menghitung Volume Bangun Ruang");
-        return 0;
-    }
+public abstract class BangunRuang {
+    abstract float hitungVolume();
 }

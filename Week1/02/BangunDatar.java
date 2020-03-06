@@ -9,9 +9,6 @@ package bangun;
  *
  * @author lenovo
  */
-public class BangunDatar {
-    float hitungluas(){
-        System.out.println("Menghitung Luas Bangun Datar");
-        return 0;
-    }
+public abstract class BangunDatar {
+    abstract float hitungLuas();
 }

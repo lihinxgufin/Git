@@ -21,7 +21,7 @@ public class Tabung extends BangunRuang{
     }
     
     @Override
-    float hitungvolume(){
+    float hitungVolume(){
         float volume = luas * getTinggi();
         System.out.println("Volume Tabung: " + volume);
         return volume;
